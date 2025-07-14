@@ -4,7 +4,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('./public/assets/models/anime_girl_character.glb')
+  const { nodes, materials } = useGLTF('/assets/models/anime_girl_character.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials['tripo_mat_d3025a2b-5c71-4195-a907-b19f12656e3d']} />
@@ -14,4 +14,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('./public/assets/models/anime_girl_character.glb')
+useGLTF.preload('/assets/models/anime_girl_character.glb')
