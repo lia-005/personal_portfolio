@@ -1,4 +1,4 @@
-import React from "react";
+
 import TitleHeader from "../components/TItleHeader";
 import TechIcon from "../components/Models/TechLogos/TechIcon";
 import { techStackIcons } from "../constants";

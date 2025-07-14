@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 
 import { Environment, useGLTF, Float, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";

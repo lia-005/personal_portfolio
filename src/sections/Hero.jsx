@@ -1,5 +1,5 @@
-import react from 'react';
-import { div } from 'three/tsl';
+
+
 
 import Button from "../components/Button.jsx";
 import { words } from '../constants/index.js';

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { counterItems } from "../constants";
 import CountUP from "react-countup";
 
