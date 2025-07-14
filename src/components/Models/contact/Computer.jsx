@@ -2,7 +2,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export function Computer(props) {
-  const { nodes, materials } = useGLTF('assets/public/models/computer-optimized.glb')
+  const { nodes, materials } = useGLTF('public/assets/models/computer-optimized.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
@@ -13,4 +13,4 @@ export function Computer(props) {
   )
 }
 
-useGLTF.preload('assets/public/models/computer-optimized.glb')
+useGLTF.preload('public/assets/models/computer-optimized.glb')
