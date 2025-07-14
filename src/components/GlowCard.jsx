@@ -21,7 +21,7 @@ card.style.setProperty('--start', angle+60)
             <div className="glow"/>
             <div className="flex items-center gap-1 mb-5">
                 {Array.from({length: 5},(_,i)=>(
-                    <img src="public\assets\images\star.png" key={i} alt="star" className="size-5" />
+                    <img src="/assets/images/star.png" key={i} alt="star" className="size-5" />
                 ))}
             </div>
             <div className="mb-5">

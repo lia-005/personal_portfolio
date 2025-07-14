@@ -47,7 +47,7 @@ const ShowcaseSection = () => {
                     <div className="w-full p-4" ref={project1Ref}>
                         <div className="w-full h-48 md:h-64 lg:h-80 xl:h-100 bg-gray-200 rounded-xl overflow-hidden">
                             <img
-                                src="public/assets/images/project1.png"
+                                src="/assets/images/project1.png"
                                 alt="Netflix_Clone"
                                 className="w-full h-full object-cover"
                             />
@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className='project' ref={project2Ref} >
                             <div className='image-wrapper'>
-                                <video src="public/assets/images/project2_vd.mp4" autoPlay muted loop alt="Flora"></video>
+                                <video src="/assets/images/project2_vd.mp4" autoPlay muted loop alt="Flora"></video>
                                 <h2>Flora- Flower CSS Model</h2>
                                 <p className='underline font-bold text-blue-500' ><a href="https://github.com/lia-005/Flora">Github</a></p>
 
@@ -74,7 +74,7 @@ const ShowcaseSection = () => {
 
                         <div className='project' ref={project3Ref}>
                             <div className='image-wrapper'>
-                                <video src="public/assets\images\project3_vd.mp4" autoPlay muted loop alt="Pause-UI Model"></video>
+                                <video src="/assets/images/project3_vd.mp4" autoPlay muted loop alt="Pause-UI Model"></video>
                                 <h2>Pause UI-Model of a game</h2>
                                 <p className='underline font-bold text-blue-500' ><a href="https://github.com/lia-005/CSS-Animation">Github </a>  </p>
                             </div>
