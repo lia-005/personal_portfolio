@@ -99,7 +99,7 @@ section {
   }
 
   .hero-3d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0 z-[-1];
   }
 
   .navbar {
@@ -158,7 +158,7 @@ section {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
     .showcaselayout {
-      @apply flex xl:flex-row flex-col gap-10 justify-between;
+      @apply flex xl:flex-row flex-col gap-10 justify-between h-full;
     }
 
  .first-project-wrapper {
@@ -189,7 +189,7 @@ section {
       @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
 
       .image-wrapper {
-        @apply xl:h-[37vh] md:h-52 lg:h-60 sm:h-[90px] relative rounded-xl xl:px-5 2xl:px-12 py-0;
+        @apply xl:h-[37vh] md:h-52 lg:h-65 sm:h-[90px] relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
 
       img {
@@ -204,7 +204,7 @@ section {
 
    button.cta-wrapper {
      all: unset;
-    @apply relative z-20 cursor-pointer;
+    @apply relative z-2 cursor-pointer;
   }
 
  .cta-button {
@@ -212,7 +212,7 @@ section {
 
       .bg-circle {
       @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
-        w-[120%] h-[120%] group-hover:size-10 group-hover:right-10
+        w-[120%] h-[120%] group-hover:size-10 group-hover:right-6
         rounded-full bg-white-50 transition-all duration-500;
     }
 
