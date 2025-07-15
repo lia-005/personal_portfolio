@@ -17,7 +17,7 @@
 
 export const words = [ 
   { text: "UI Designer", imgPath: "/assets/images/designs.svg" },
-  { text: "Web Developer", imgPath: "/assets/images/code.svg" },
+  { text: "WebDeveloper", imgPath: "/assets/images/code.svg" },
   { text: "Tech Explorer", imgPath: "/assets/images/ideas.svg" },
 ];
 

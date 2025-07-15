@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import HeroLights from "./Herolight";
 import Partical from "./Partical";
 import { useMediaQuery } from "react-responsive";
-import { Model } from "./Anime_girl_character";
+import { Model } from "./Animegirl";
 const HeroExperience = () => {
 const isTablet=useMediaQuery({query : '(max-width: 1024px)'})
 const isMobile=useMediaQuery({query : '(max-width: 768px)'})

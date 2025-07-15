@@ -221,9 +221,9 @@ section {
     }
 
     .arrow-wrapper {
-      @apply group-hover:bg-white-50 size-10 rounded-full absolute right-10 top-1/2 
-        -translate-y-1/2 flex justify-center items-center overflow-hidden;
-
+      @apply group-hover:bg-white-50 size-10 rounded-full absolute right-3 top-1/2 
+        -translate-y-1 flex justify-center items-center overflow-hidden ;
+      
       img {
         @apply size-5 xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
       }

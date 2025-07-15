@@ -91,12 +91,12 @@ const Contact = () => {
                 </div>
 
                 <button type="submit">
-                  <div className="cta-button group">
+                  <div className="cta-button">
                     <div className="bg-circle" />
-                    <p className="text">
+                    <p className="text ">
                       {loading ? "Sending..." : "Send Message"}
                     </p>
-                    <div className="arrow-wrapper">
+                    <div className="arrow-wrapper" >
                       <img src="/assets/images/arrow-down.svg" alt="arrow" />
                     </div>
                   </div>

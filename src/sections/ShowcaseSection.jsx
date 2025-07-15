@@ -55,9 +55,9 @@ const ShowcaseSection = () => {
                         <div className=' text-content'>
                             <h2>A Netflix_Clone built with HTML & CSS to Master the Fundamentals</h2>
                             <p className='text-white-50 md:text-xl'>This is a simple web-based clone of the Netflix homepage created using HTML and CSS. It's designed to give you the feel of the real Netflix site but without any actual functionality like login or video playing. This is just the design (UI).
-                                <p>
+                              
                                     <a className='underline font-bold text-blue-500' href="https://netflixclone-phi-one.vercel.app/">  Livelink</a>
-                                </p>
+                                
                             </p>
                         </div>
                     </div>
