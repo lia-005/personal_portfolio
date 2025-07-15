@@ -16,7 +16,7 @@ const isMobile=useMediaQuery({query : '(max-width: 768px)'})
 <OrbitControls 
 enablePan={false}
 //enableZoom={!isTablet}//tihs will disable zoom on tablet devices
-maxDistance={20}
+maxDistance={10}
 minDistance={2.5}
 minPolarAngle={Math.PI/4}//horizontal angle how much I can rotate the camera
 maxPolarAngle={Math.PI/2}
