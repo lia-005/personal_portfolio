@@ -56,36 +56,39 @@ export const techStackIcons = [
   {
     name: "Python Developer",
     modelPath: "/assets/models/python-transformed.glb",
+    imgPath: "/assets/images/python.png",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "React Developer",
     modelPath: "/assets/models/react_logo-transformed.glb",
+    imgPath: "/assets/images/react.png",
     scale: 1,
     rotation: [0, 0, 0],
   },
-  
   {
     name: "Backend Developer",
     modelPath: "/assets/models/node-transformed.glb",
+    imgPath: "/assets/images/node.png",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "C Developer",
     modelPath: "/assets/models/c.glb",
+    imgPath: "/assets/images/C.png",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Javascript Developer",
     modelPath: "/assets/models/javascript_1.glb",
+    imgPath: "/assets/images/javascript.png",
     scale: 0.2,
-    rotation: [0,0,0],
+    rotation: [0, 0, 0],
   },
 ];
-
 
 
 export const expCards = [
