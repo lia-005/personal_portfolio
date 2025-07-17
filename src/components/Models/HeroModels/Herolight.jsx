@@ -7,7 +7,7 @@ const HeroLights = () => (
 
     {/* main spots */}
     <spotLight position={[2, 5, 6]} angle={0.2} penumbra={0.5} intensity={2} />
-    <spotLight position={[6, 2, 7]} angle={0.4} penumbra={0.5} intensity={2} />
+    <spotLight position={[6, 9, 7]} angle={0.4} penumbra={0.5} intensity={2} />
     <spotLight position={[-3, 5, 9]} angle={0.7} penumbra={1} intensity={1.5} color="purple" />
 
     {/* subtle point lights */}

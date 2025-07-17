@@ -26,10 +26,10 @@ const ContactExperience = () => {
               background:transparent;
                 animation: float 4s ease-in-out infinite;
                 width: 100%;
-                max-width: 150px; /* Adjust size as needed */
+                max-width: 150px; 
                 max-height: 150px;
                 object-fit: contain;
-                will-change: transform; /* Optimize animation performance */
+                will-change: transform;
               }
               @keyframes float {
                 0% {
