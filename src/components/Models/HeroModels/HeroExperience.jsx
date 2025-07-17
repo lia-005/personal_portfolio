@@ -10,7 +10,7 @@ const isMobile=useMediaQuery({query : '(max-width: 768px)'})
 
 
     return(
-        <Canvas camera={{position: [0,0,15], fov: 45}}>
+        <Canvas camera={{position: isMobile ? [0, 0, 20] : [0, 0, 15], fov: 45}}>
      
 
 <OrbitControls 
@@ -22,11 +22,13 @@ minPolarAngle={Math.PI/4}//horizontal angle how much I can rotate the camera
 maxPolarAngle={Math.PI/2}
 />
 <HeroLights/>
-<Partical  count={150}/>
+<Partical count={isMobile ? 50:150}  />
 <group scale={isMobile? 0.7:1}
 position={[0,-3.5,0]}
 rotation={[0, -Math.PI/4 ,0]}/>
 <Model  />
+ 
+
         </Canvas>
     )
 }
