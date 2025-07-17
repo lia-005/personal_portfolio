@@ -1,6 +1,6 @@
 
 import emailjs from "@emailjs/browser";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import ContactExperience from "../components/Models/contact/ContactExperience.jsx";
 import TitleHeader from "../components/TItleHeader";
 const Contact = () => {
@@ -9,6 +9,18 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect mobile device based on window width
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Consistent with TechIcon.jsx and ContactExperience.jsx
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -106,7 +118,7 @@ const Contact = () => {
           </div>
           {/* 3d part right side */}
           <div className="xl:col-span-7 min-h-96">
-            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+        <div className={`${isMobile ? 'bg-black' : 'bg-[#cd7c2e]'} w-full h-full hover:cursor-grab rounded-3xl overflow-hidden`}>
               <ContactExperience />
             </div>
           </div>
