@@ -186,7 +186,7 @@ section {
     }
 
     .project-list-wrapper {
-      @apply flex md:flex-row flex-col xl:flex-col gap-17 lg:h-80 xl:w-[40%]  xl:h-[600px] ;
+      @apply flex md:flex-row flex-col xl:flex-col gap-25 lg:h-80 xl:w-[40%]  xl:h-[600px] ;
 
       .image-wrapper {
         @apply xl:h-[25vh] md:h-52 lg:h-60 sm:h-[90px] relative rounded-xl xl:px-5 2xl:px-12 py-0 ;
