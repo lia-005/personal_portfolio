@@ -33,19 +33,19 @@ const ContactExperience = () => {
               }
               @keyframes float {
                 0% {
-                  transform: translate(0, 0) scale(0.6);
+                  transform: translate(-12, 0) scale(0.5);
                 }
                 25% {
-                  transform: translate(6px, -8px) scale(0.7);
+                  transform: translate(12px, -0px) scale(0.7);
                 }
                 50% {
-                  transform: translate(-8px, 6px) scale(0.6);
+                  transform: translate(-12px, 0px) scale(0.5);
                 }
                 75% {
-                  transform: translate(6px, -8px) scale(0.7);
+                  transform: translate(12px, -0px) scale(0.7);
                 }
                 100% {
-                  transform: translate(0, 0) scale(0.7);
+                  transform: translate(-12, 0) scale(0.5);
                 }
               }
               .stay-connected {
